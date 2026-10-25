@@ -1,0 +1,17 @@
+name: Growth Studio tests
+on:
+  push:
+    branches: ["main", "feat/**"]
+  pull_request:
+jobs:
+  unit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Compile standalone CLI
+        run: python -m py_compile growth_studio.py
+      - name: Run offline tests
+        run: python -m unittest discover -s tests -v

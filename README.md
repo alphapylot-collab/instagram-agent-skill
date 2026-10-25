@@ -1,5 +1,7 @@
 # The Instagram agent skill
 
+> **AlphaPylot Collab fork:** adds a cross-client Growth Studio for ChatGPT + Claude, opt-in Kling/Gemini video API workflows, a manual Google Flow export bridge, and offline Instagram/Facebook performance analysis. [Read the setup and limitations](GROWTH_STUDIO.md). The original 13 skills remain intact, credited to Jake Schincariol under MIT.
+
 Thirteen Claude skills that run an Instagram account. Free, MIT, no signup, no
 API key, nothing to connect.
 

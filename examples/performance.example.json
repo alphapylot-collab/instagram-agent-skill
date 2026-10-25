@@ -1,0 +1,40 @@
+{
+  "account": "my_brand",
+  "platform": "instagram",
+  "period_start": "2026-10-01",
+  "period_end": "2026-10-15",
+  "followers_start": 1000,
+  "followers_end": 1045,
+  "posts": [
+    {
+      "id": "reel-1",
+      "format": "reel",
+      "hook": "confession",
+      "views": 6200,
+      "reach": 5100,
+      "shares": 73,
+      "saves": 58,
+      "follows": 23
+    },
+    {
+      "id": "reel-2",
+      "format": "reel",
+      "hook": "tutorial",
+      "views": 2100,
+      "reach": 1700,
+      "shares": 8,
+      "saves": 12,
+      "follows": 3
+    },
+    {
+      "id": "carousel-1",
+      "format": "carousel",
+      "hook": "checklist",
+      "views": 1200,
+      "reach": 930,
+      "shares": 19,
+      "saves": 45,
+      "follows": 4
+    }
+  ]
+}

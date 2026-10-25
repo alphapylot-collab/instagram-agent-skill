@@ -1,0 +1,35 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "instagram-growth-studio",
+  "version": "1.1.0",
+  "description": "Cross-client creator growth skills with consent-based analytics and opt-in Kling/Gemini video generation.",
+  "author": {
+    "name": "AlphaPylot Collab"
+  },
+  "homepage": "https://github.com/alphapylot-collab/instagram-agent-skill",
+  "repository": "https://github.com/alphapylot-collab/instagram-agent-skill",
+  "license": "MIT",
+  "keywords": [
+    "instagram",
+    "facebook",
+    "claude",
+    "chatgpt",
+    "content",
+    "analytics",
+    "kling",
+    "gemini"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Instagram Growth Studio",
+        "shortDescription": "Create, measure, grow",
+        "longDescription": "Plan Instagram and Facebook content, preview portrait video generation through Kling or Gemini, import performance data, and prioritize ethical growth experiments. Posting remains human-approved.",
+        "developerName": "AlphaPylot Collab",
+        "category": "Productivity",
+        "capabilities": [],
+        "defaultPrompt": "Help me plan, produce and measure this week's Instagram and Facebook content."
+      }
+    }
+  }
+}
